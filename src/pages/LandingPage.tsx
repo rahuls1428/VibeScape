@@ -7,7 +7,7 @@ interface LandingPageProps {
 
 const LandingPage: React.FC<LandingPageProps> = ({ onMoodSelect }) => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen min-h-screen bg-slate-950">
+    <div className="flex flex-col items-center justify-center h-screen min-h-screen">
       <h1 className="text-4xl font-bold mb-6 text-white">VibeScape 🎧</h1>
       <p className="text-gray-400 mb-10">
         Select your current mood to discover matching music
